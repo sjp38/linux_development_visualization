@@ -32,7 +32,8 @@ for line in sys.stdin:
         continue
     if line == "":
         continue
-    if fields[1] == "file" and fields[2] == "changed,":
+    if ((fields[1] == "file" or fields[1] == "files") and
+            fields[2] == "changed,"):
         in_log = False
         continue
     if len(fields) < 4:
