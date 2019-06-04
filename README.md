@@ -4,3 +4,17 @@ $ ./gen_video.sh ./the_log
 $ ls ./the_log.mp4
 the_log.mp4
 ```
+
+
+License
+=======
+
+GPL v3
+
+
+Author
+======
+
+```
+SeongJae Park <sj38.park@gmail.com>
+```
