@@ -6,8 +6,6 @@ then
 	exit 1
 fi
 
-BINDIR=`dirname $0`
-
 REPO_PATH=$1
 START_VER=$2
 END_VER=$3
